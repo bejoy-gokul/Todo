@@ -37,7 +37,7 @@ public class TodoController {
 		//TODO: process POST request
 		
 		todoService.createTask(entity);
-		return new ResponseEntity<String>("Task Created Successfully", HttpStatus.OK);
+		return new ResponseEntity<String>("Task Created Successfully", HttpStatus.CREATED);
 	}
 	
 	@GetMapping("find")
