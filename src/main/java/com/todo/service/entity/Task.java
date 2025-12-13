@@ -22,7 +22,7 @@ import lombok.ToString;
 @ToString
 @Entity
 @Table(name = "task")
-@Where(clause = " deleted = false")
+// @Where(clause = " deleted = false")
 public class Task {
 
 	@Id
